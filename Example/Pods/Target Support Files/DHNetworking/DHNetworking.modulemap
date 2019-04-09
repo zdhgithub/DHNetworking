@@ -1,0 +1,6 @@
+framework module DHNetworking {
+  umbrella header "DHNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

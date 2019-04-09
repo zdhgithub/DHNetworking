@@ -1,0 +1,27 @@
+PODS:
+  - DHNetworking (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DHNetworking (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DHNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHNetworking: 6e32c5857ee3f332d1c0b332e8484ce78772bdde
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 500623cb22fcbca8f2a42d1a44dbfda3867741be
+
+COCOAPODS: 1.5.3
